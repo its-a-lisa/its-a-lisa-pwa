@@ -20,7 +20,7 @@
         "id": "4SrlLN9bt6Yew2UyGgM06a",
         "type": "Entry",
         "createdAt": "2020-12-30T02:52:57.670Z",
-        "updatedAt": "2020-12-30T03:35:02.676Z",
+        "updatedAt": "2020-12-30T04:08:43.396Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -28,7 +28,7 @@
             "linkType": "Environment"
           }
         },
-        "revision": 2,
+        "revision": 3,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -56,7 +56,7 @@
         "id": "3DpgtG8qI8QCWyEAuME4Ku",
         "type": "Entry",
         "createdAt": "2020-12-30T02:52:58.279Z",
-        "updatedAt": "2020-12-30T03:51:20.934Z",
+        "updatedAt": "2020-12-30T04:08:43.958Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -64,7 +64,7 @@
             "linkType": "Environment"
           }
         },
-        "revision": 3,
+        "revision": 4,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -92,7 +92,7 @@
         "id": "114ApRkJZq640w8G2GwM8w",
         "type": "Entry",
         "createdAt": "2020-12-30T02:52:56.340Z",
-        "updatedAt": "2020-12-30T03:51:04.929Z",
+        "updatedAt": "2020-12-30T04:08:42.222Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -100,7 +100,7 @@
             "linkType": "Environment"
           }
         },
-        "revision": 3,
+        "revision": 4,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -128,7 +128,7 @@
         "id": "4J6WFTjoMUCmQKuKAaOsqE",
         "type": "Entry",
         "createdAt": "2020-12-30T02:52:57.330Z",
-        "updatedAt": "2020-12-30T03:35:02.346Z",
+        "updatedAt": "2020-12-30T04:08:43.149Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -136,7 +136,7 @@
             "linkType": "Environment"
           }
         },
-        "revision": 2,
+        "revision": 3,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -162,10 +162,10 @@
           "id": "pzngncq9drnk"
         }
       },
-      "id": "3566gluVHfHSDrBVEQaneo",
+      "id": "LXDPQYhf3h289aVt5BsDL",
       "type": "Asset",
-      "createdAt": "2020-12-30T03:05:22.164Z",
-      "updatedAt": "2020-12-30T03:05:22.164Z",
+      "createdAt": "2020-12-30T03:05:29.494Z",
+      "updatedAt": "2020-12-30T03:05:29.494Z",
       "environment": {
         "sys": {
           "id": "master",
@@ -177,17 +177,17 @@
       "locale": "en-US"
     },
     "fields": {
-      "title": "17S SM-Abstract",
+      "title": "profilepicture-removebg-preview",
       "file": {
-        "url": "//images.ctfassets.net/pzngncq9drnk/3566gluVHfHSDrBVEQaneo/d643ae660d3aa611bd6a5610d0783071/17S_SM-Abstract.png",
+        "url": "//images.ctfassets.net/pzngncq9drnk/LXDPQYhf3h289aVt5BsDL/a9e6430dcc45a635ab7f045d49b3e12b/profilepicture-removebg-preview.png",
         "details": {
-          "size": 65225,
+          "size": 43041,
           "image": {
-            "width": 1472,
-            "height": 1472
+            "width": 200,
+            "height": 200
           }
         },
-        "fileName": "17S_SM-Abstract.png",
+        "fileName": "profilepicture-removebg-preview.png",
         "contentType": "image/png"
       }
     }
@@ -207,7 +207,7 @@
         "id": "6Y7EIx73nUCWuoIWcsuM00",
         "type": "Entry",
         "createdAt": "2020-12-30T02:52:57.987Z",
-        "updatedAt": "2020-12-30T03:53:37.261Z",
+        "updatedAt": "2020-12-30T04:12:23.898Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -215,7 +215,7 @@
             "linkType": "Environment"
           }
         },
-        "revision": 4,
+        "revision": 6,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -285,7 +285,7 @@
         "id": "5paxSRHbAkmgMc4WSW8S66",
         "type": "Entry",
         "createdAt": "2020-12-30T02:52:56.902Z",
-        "updatedAt": "2020-12-30T03:53:54.014Z",
+        "updatedAt": "2020-12-30T04:13:08.341Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -293,7 +293,7 @@
             "linkType": "Environment"
           }
         },
-        "revision": 4,
+        "revision": 6,
         "contentType": {
           "sys": {
             "type": "Link",

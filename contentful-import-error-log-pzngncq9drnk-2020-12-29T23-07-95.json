@@ -1,0 +1,274 @@
+[
+  {
+    "ts": "2020-12-30T04:08:33.625Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "pzngncq9drnk"
+            }
+          },
+          "id": "3AorRmtWOsGQ4o8gK0YWKG",
+          "type": "Asset",
+          "createdAt": "2020-12-30T04:07:59.420Z",
+          "updatedAt": "2020-12-30T04:07:59.420Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0eM12u4WmSLzUbFqqsmMTl"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0eM12u4WmSLzUbFqqsmMTl"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "CSF-Simon-Says Logo"
+          },
+          "description": {
+            "en-US": "CSF-Simon-Says Logo"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/723uytqlo16i/3AorRmtWOsGQ4o8gK0YWKG/2e71dc88b71ca7048190da5e6f00668e/framework-01.png",
+              "fileName": "framework-01.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "get.then.asset (/home/alyssa/Documents/GitHub/seventeensierra-pwa/node_modules/contentful-import/node_modules/contentful-management/dist/contentful-management.node.js:11494:21)",
+        "process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2020-12-30T04:08:33.810Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "pzngncq9drnk"
+            }
+          },
+          "id": "u3Um4zkMrAaQioyq4oSIW",
+          "type": "Asset",
+          "createdAt": "2020-12-30T04:07:59.412Z",
+          "updatedAt": "2020-12-30T04:07:59.412Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0eM12u4WmSLzUbFqqsmMTl"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0eM12u4WmSLzUbFqqsmMTl"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "XXonBoard logo"
+          },
+          "description": {
+            "en-US": "XXonBoard logo"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/723uytqlo16i/u3Um4zkMrAaQioyq4oSIW/adef0791d61b1b2e3dfcb52a0ec26822/boardroom.jpg",
+              "fileName": "boardroom_power",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "get.then.asset (/home/alyssa/Documents/GitHub/seventeensierra-pwa/node_modules/contentful-import/node_modules/contentful-management/dist/contentful-management.node.js:11494:21)",
+        "process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2020-12-30T04:08:36.875Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "pzngncq9drnk"
+            }
+          },
+          "id": "6nf3rNaaVaUqYcoAcciSeC",
+          "type": "Asset",
+          "createdAt": "2020-12-30T04:07:59.388Z",
+          "updatedAt": "2020-12-30T04:07:59.388Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0eM12u4WmSLzUbFqqsmMTl"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0eM12u4WmSLzUbFqqsmMTl"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Profile Picture"
+          },
+          "description": {
+            "en-US": "Mate Logo"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/723uytqlo16i/6nf3rNaaVaUqYcoAcciSeC/6570db56b6e33ee400ba01cc3eb56b59/profilepicture-removebg-preview.png",
+              "fileName": "profilepicture-removebg-preview.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "get.then.asset (/home/alyssa/Documents/GitHub/seventeensierra-pwa/node_modules/contentful-import/node_modules/contentful-management/dist/contentful-management.node.js:11494:21)",
+        "process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2020-12-30T04:08:44.227Z",
+    "level": "error",
+    "error": {
+      "name": "Conflict",
+      "entity": {
+        "name": "Gatsby Builds",
+        "url": "https://webhook.gatsbyjs.com/hooks/data_source/publish/008f12de-82ee-48d1-8435-cae860230b06",
+        "httpBasicUsername": null,
+        "topics": [
+          "ContentType.publish",
+          "Entry.publish",
+          "Asset.publish",
+          "ContentType.unpublish",
+          "Entry.unpublish",
+          "Asset.unpublish"
+        ],
+        "filters": null,
+        "transformation": null,
+        "sys": {
+          "type": "WebhookDefinition",
+          "id": "gatsby-builds",
+          "version": 1,
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "723uytqlo16i"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "7rR7biVEvT1Gm6s9ftdL88"
+            }
+          },
+          "createdAt": "2020-05-10T21:52:22Z",
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "7rR7biVEvT1Gm6s9ftdL88"
+            }
+          },
+          "updatedAt": "2020-06-12T17:24:31Z"
+        },
+        "headers": [
+        ]
+      },
+      "data": {
+        "status": 409,
+        "statusText": "Conflict",
+        "message": "Please pass sys.version as HTTP header \"X-Contentful-Version\".",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/pzngncq9drnk/webhook_definitions/gatsby-builds",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/7.9.30; feature library-import; sdk contentful-management.js/7.5.1; platform node.js/v10.21.0; os Linux/5.8.0-7630-generic;",
+            "Authorization": "Bearer ...e47Hk",
+            "user-agent": "node.js/v10.21.0",
+            "Accept-Encoding": "gzip",
+            "Content-Length": 324
+          },
+          "method": "put",
+          "payloadData": "{\"name\":\"Gatsby Builds\",\"url\":\"https://webhook.gatsbyjs.com/hooks/data_source/publish/008f12de-82ee-48d1-8435-cae860230b06\",\"httpBasicUsername\":null,\"topics\":[\"ContentType.publish\",\"Entry.publish\",\"Asset.publish\",\"ContentType.unpublish\",\"Entry.unpublish\",\"Asset.unpublish\"],\"filters\":null,\"transformation\":null,\"headers\":[]}"
+        },
+        "requestId": "b02aa36fbc5d2288db1e3166fb8a63d8"
+      }
+    }
+  }
+]
