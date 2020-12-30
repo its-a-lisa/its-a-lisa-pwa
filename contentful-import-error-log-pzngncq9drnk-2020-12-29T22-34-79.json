@@ -1,0 +1,200 @@
+[
+  {
+    "ts": "2020-12-30T03:34:51.583Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "pzngncq9drnk"
+            }
+          },
+          "id": "3AorRmtWOsGQ4o8gK0YWKG",
+          "type": "Asset",
+          "createdAt": "2020-12-30T03:34:19.338Z",
+          "updatedAt": "2020-12-30T03:34:19.338Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0eM12u4WmSLzUbFqqsmMTl"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0eM12u4WmSLzUbFqqsmMTl"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "CSF-Simon-Says Logo"
+          },
+          "description": {
+            "en-US": "CSF-Simon-Says Logo"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/723uytqlo16i/3AorRmtWOsGQ4o8gK0YWKG/2e71dc88b71ca7048190da5e6f00668e/framework-01.png",
+              "fileName": "framework-01.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "get.then.asset (/home/alyssa/Documents/GitHub/seventeensierra-pwa/node_modules/contentful-management/dist/contentful-management.node.js:11494:21)",
+        "process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2020-12-30T03:34:53.395Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "pzngncq9drnk"
+            }
+          },
+          "id": "6nf3rNaaVaUqYcoAcciSeC",
+          "type": "Asset",
+          "createdAt": "2020-12-30T03:34:19.341Z",
+          "updatedAt": "2020-12-30T03:34:19.341Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0eM12u4WmSLzUbFqqsmMTl"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0eM12u4WmSLzUbFqqsmMTl"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Profile Picture"
+          },
+          "description": {
+            "en-US": "Mate Logo"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/723uytqlo16i/6nf3rNaaVaUqYcoAcciSeC/6570db56b6e33ee400ba01cc3eb56b59/profilepicture-removebg-preview.png",
+              "fileName": "profilepicture-removebg-preview.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "get.then.asset (/home/alyssa/Documents/GitHub/seventeensierra-pwa/node_modules/contentful-management/dist/contentful-management.node.js:11494:21)",
+        "process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2020-12-30T03:34:55.872Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "pzngncq9drnk"
+            }
+          },
+          "id": "u3Um4zkMrAaQioyq4oSIW",
+          "type": "Asset",
+          "createdAt": "2020-12-30T03:34:19.343Z",
+          "updatedAt": "2020-12-30T03:34:19.343Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0eM12u4WmSLzUbFqqsmMTl"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0eM12u4WmSLzUbFqqsmMTl"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "XXonBoard logo"
+          },
+          "description": {
+            "en-US": "XXonBoard logo"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/723uytqlo16i/u3Um4zkMrAaQioyq4oSIW/adef0791d61b1b2e3dfcb52a0ec26822/boardroom.jpg",
+              "fileName": "boardroom_power",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "get.then.asset (/home/alyssa/Documents/GitHub/seventeensierra-pwa/node_modules/contentful-management/dist/contentful-management.node.js:11494:21)",
+        "process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    }
+  }
+]

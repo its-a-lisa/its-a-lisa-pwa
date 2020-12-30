@@ -1,0 +1,1692 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "id": "project",
+        "type": "ContentType",
+        "createdAt": "2020-05-10T20:31:39.567Z",
+        "updatedAt": "2020-06-13T04:14:42.950Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 37,
+        "publishedAt": "2020-06-13T04:14:42.950Z",
+        "firstPublishedAt": "2020-05-10T20:31:42.820Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "publishedCounter": 19,
+        "version": 38,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Project",
+      "description": "Project description",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "publishedDate",
+          "name": "PublishedDate",
+          "type": "Date",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "logo",
+          "name": "Logo",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "repositoryUrl",
+          "name": "RepositoryUrl",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "projectUrl",
+          "name": "ProjectUrl",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "type",
+          "name": "Type",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "id": "about",
+        "type": "ContentType",
+        "createdAt": "2020-05-10T20:31:39.588Z",
+        "updatedAt": "2020-06-13T04:14:43.568Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 33,
+        "publishedAt": "2020-06-13T04:14:43.568Z",
+        "firstPublishedAt": "2020-05-10T20:31:43.244Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "publishedCounter": 17,
+        "version": 34,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "About",
+      "description": "All information related to personal data.",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "roles",
+          "name": "Roles",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        },
+        {
+          "id": "socialLinks",
+          "name": "Social Links",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "socialLink"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "profile",
+          "name": "Profile",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "aboutMe",
+          "name": "About me",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "mediumUser",
+          "name": "Medium User",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "projects",
+          "name": "Projects",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "project"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "id": "socialLink",
+        "type": "ContentType",
+        "createdAt": "2020-05-10T20:31:39.630Z",
+        "updatedAt": "2020-06-13T04:14:43.274Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 33,
+        "publishedAt": "2020-06-13T04:14:43.274Z",
+        "firstPublishedAt": "2020-05-10T20:31:43.066Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "publishedCounter": 17,
+        "version": 34,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Social Link",
+      "description": "Social Link to display with a font awesome icon.",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "url",
+          "name": "URL",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "fontAwesomeIcon",
+          "name": "Font Awesome Icon",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "723uytqlo16i",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 50,
+        "createdAt": "2020-05-10T20:31:42.878Z",
+        "createdBy": {
+          "sys": {
+            "id": "7rR7biVEvT1Gm6s9ftdL88",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-06-13T04:14:43.954Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7rR7biVEvT1Gm6s9ftdL88",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "project",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "CkmBND0IRjDifLr7BBEcZ",
+          "widgetNamespace": "extension"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "6EM250uYZFLmiG6mpmpeib",
+          "widgetNamespace": "extension"
+        },
+        {
+          "widgetId": "1VchawWvbIClHuMIyxwR5m",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "35f8xJFaJpOUFAKepAWiUj",
+          "widgetNamespace": "app"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "users-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "disabled": true,
+          "widgetId": "releases-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "publishedDate",
+          "widgetId": "datePicker"
+        },
+        {
+          "fieldId": "logo",
+          "widgetId": "assetLinkEditor"
+        },
+        {
+          "fieldId": "repositoryUrl",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "projectUrl",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "type",
+          "widgetId": "singleLine"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "723uytqlo16i",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 46,
+        "createdAt": "2020-05-10T20:31:43.299Z",
+        "createdBy": {
+          "sys": {
+            "id": "7rR7biVEvT1Gm6s9ftdL88",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-06-13T04:14:43.932Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7rR7biVEvT1Gm6s9ftdL88",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "about",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "CkmBND0IRjDifLr7BBEcZ",
+          "widgetNamespace": "extension"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "6EM250uYZFLmiG6mpmpeib",
+          "widgetNamespace": "extension"
+        },
+        {
+          "widgetId": "1VchawWvbIClHuMIyxwR5m",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "35f8xJFaJpOUFAKepAWiUj",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "users-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "roles",
+          "widgetId": "tagEditor"
+        },
+        {
+          "fieldId": "socialLinks",
+          "settings": {
+            "bulkEditing": false
+          },
+          "widgetId": "entryLinksEditor"
+        },
+        {
+          "fieldId": "profile",
+          "widgetId": "assetLinkEditor"
+        },
+        {
+          "fieldId": "aboutMe",
+          "widgetId": "markdown"
+        },
+        {
+          "fieldId": "mediumUser",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "projects",
+          "settings": {
+            "bulkEditing": false
+          },
+          "widgetId": "entryLinksEditor"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "723uytqlo16i",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 46,
+        "createdAt": "2020-05-10T20:31:43.126Z",
+        "createdBy": {
+          "sys": {
+            "id": "7rR7biVEvT1Gm6s9ftdL88",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-06-13T04:14:43.988Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7rR7biVEvT1Gm6s9ftdL88",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "socialLink",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "sidebar": [
+        {
+          "settings": {
+          },
+          "widgetId": "CkmBND0IRjDifLr7BBEcZ",
+          "widgetNamespace": "extension"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "6EM250uYZFLmiG6mpmpeib",
+          "widgetNamespace": "extension"
+        },
+        {
+          "widgetId": "1VchawWvbIClHuMIyxwR5m",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "35f8xJFaJpOUFAKepAWiUj",
+          "widgetNamespace": "app"
+        },
+        {
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "widgetId": "users-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "url",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "fontAwesomeIcon",
+          "widgetId": "singleLine"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "id": "114ApRkJZq640w8G2GwM8w",
+        "type": "Entry",
+        "createdAt": "2020-05-10T20:31:51.870Z",
+        "updatedAt": "2020-06-13T04:22:30.254Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 45,
+        "publishedAt": "2020-06-13T04:22:30.254Z",
+        "firstPublishedAt": "2020-05-10T20:31:53.073Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "publishedCounter": 23,
+        "version": 46,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Contact me"
+        },
+        "url": {
+          "en-US": "https://about.me/alyssafeola"
+        },
+        "fontAwesomeIcon": {
+          "en-US": "envelope"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "id": "3DpgtG8qI8QCWyEAuME4Ku",
+        "type": "Entry",
+        "createdAt": "2020-05-10T20:31:51.872Z",
+        "updatedAt": "2020-06-13T04:22:30.270Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 55,
+        "publishedAt": "2020-06-13T04:22:30.270Z",
+        "firstPublishedAt": "2020-05-10T20:31:53.325Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "publishedCounter": 24,
+        "version": 56,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Medium"
+        },
+        "url": {
+          "en-US": "https://medium.com/@its_a_lisa"
+        },
+        "fontAwesomeIcon": {
+          "en-US": "medium"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "id": "6Y7EIx73nUCWuoIWcsuM00",
+        "type": "Entry",
+        "createdAt": "2020-05-10T20:31:51.873Z",
+        "updatedAt": "2020-06-13T04:30:39.722Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 198,
+        "publishedAt": "2020-06-13T04:30:39.722Z",
+        "firstPublishedAt": "2020-05-10T20:31:53.536Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "publishedCounter": 24,
+        "version": 199,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "project"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "XXonBoard"
+        },
+        "publishedDate": {
+          "en-US": "2020-06-05T05:23-05:00"
+        },
+        "logo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "u3Um4zkMrAaQioyq4oSIW"
+            }
+          }
+        },
+        "repositoryUrl": {
+          "en-US": "https://github.com/its-a-lisa/xxonboard"
+        },
+        "description": {
+          "en-US": "It is well known that women are not well represented on executive boards. This project is a way to use coding practices (web scraping, python, natural language processing) to have a visually pleasing representation of the gender disparity. "
+        },
+        "projectUrl": {
+          "en-US": "http://xxonboard.seventeensierra.com/"
+        },
+        "type": {
+          "en-US": "Web"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "id": "4SrlLN9bt6Yew2UyGgM06a",
+        "type": "Entry",
+        "createdAt": "2020-05-10T20:31:51.907Z",
+        "updatedAt": "2020-06-13T04:22:30.282Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 43,
+        "publishedAt": "2020-06-13T04:22:30.282Z",
+        "firstPublishedAt": "2020-05-10T20:31:52.434Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "publishedCounter": 22,
+        "version": 44,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Github"
+        },
+        "url": {
+          "en-US": "https://github.com/its-a-lisa/"
+        },
+        "fontAwesomeIcon": {
+          "en-US": "github"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "id": "5lzMxuCX84uYqmgGmU8iKU",
+        "type": "Entry",
+        "createdAt": "2020-05-10T20:31:52.076Z",
+        "updatedAt": "2020-06-13T04:33:41.640Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 254,
+        "publishedAt": "2020-06-13T04:33:41.640Z",
+        "firstPublishedAt": "2020-05-10T20:31:52.636Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "publishedCounter": 29,
+        "version": 255,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "about"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Alyssa"
+        },
+        "description": {
+          "en-US": "My top notch portfolio!"
+        },
+        "roles": {
+          "en-US": [
+            "Civil Servant ⚖️",
+            "Wannabe Hacker ⚡",
+            "Technologist 💻",
+            "Boston(ish) bred 🏆"
+          ]
+        },
+        "socialLinks": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4SrlLN9bt6Yew2UyGgM06a"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3DpgtG8qI8QCWyEAuME4Ku"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "114ApRkJZq640w8G2GwM8w"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4J6WFTjoMUCmQKuKAaOsqE"
+              }
+            }
+          ]
+        },
+        "profile": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6nf3rNaaVaUqYcoAcciSeC"
+            }
+          }
+        },
+        "aboutMe": {
+          "en-US": "Hello 👋 I'm Alyssa and I'm a Cybersecurity Advisor.\n\nSome basics about me 😃:\n* [Landing:](#home) It Me!\n* [About:](#about) Section about who I am, what I like to do and other good stuff!\n* [Project:](#projects) Various projects that I'm working on; would love any feedback.\n* [Writing:](#writing) My writings on medium."
+        },
+        "mediumUser": {
+          "en-US": "@its_a_lisa"
+        },
+        "projects": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6Y7EIx73nUCWuoIWcsuM00"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5paxSRHbAkmgMc4WSW8S66"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "id": "4J6WFTjoMUCmQKuKAaOsqE",
+        "type": "Entry",
+        "createdAt": "2020-05-10T20:31:52.122Z",
+        "updatedAt": "2020-06-13T04:22:30.265Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 57,
+        "publishedAt": "2020-06-13T04:22:30.265Z",
+        "firstPublishedAt": "2020-05-10T20:31:52.859Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "publishedCounter": 23,
+        "version": 58,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Twitter"
+        },
+        "url": {
+          "en-US": "https://twitter.com/its_a_lisa"
+        },
+        "fontAwesomeIcon": {
+          "en-US": "twitter"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "id": "5paxSRHbAkmgMc4WSW8S66",
+        "type": "Entry",
+        "createdAt": "2020-06-13T03:56:23.589Z",
+        "updatedAt": "2020-06-13T04:30:39.729Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 26,
+        "publishedAt": "2020-06-13T04:30:39.729Z",
+        "firstPublishedAt": "2020-06-13T03:56:26.784Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 27,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "project"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "CSF Simon Says"
+        },
+        "publishedDate": {
+          "en-US": "2020-06-13T12:12-05:00"
+        },
+        "logo": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3AorRmtWOsGQ4o8gK0YWKG"
+            }
+          }
+        },
+        "repositoryUrl": {
+          "en-US": "https://github.com/its-a-lisa"
+        },
+        "description": {
+          "en-US": "The Cybersecurity Framework logo already looks like the game 'Simon' so why not make it so & teach folks about the CSF while we're at it!"
+        },
+        "projectUrl": {
+          "en-US": "https://www.csfsimonsays.seventeensierra.com/"
+        },
+        "type": {
+          "en-US": "Web"
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "id": "u3Um4zkMrAaQioyq4oSIW",
+        "type": "Asset",
+        "createdAt": "2020-05-10T20:31:43.772Z",
+        "updatedAt": "2020-06-13T04:30:48.621Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 85,
+        "publishedAt": "2020-06-13T04:30:48.621Z",
+        "firstPublishedAt": "2020-05-10T20:31:51.484Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "publishedCounter": 17,
+        "version": 86,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "XXonBoard logo"
+        },
+        "description": {
+          "en-US": "XXonBoard logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/723uytqlo16i/u3Um4zkMrAaQioyq4oSIW/adef0791d61b1b2e3dfcb52a0ec26822/boardroom.jpg",
+            "details": {
+              "size": 102870,
+              "image": {
+                "width": 444,
+                "height": 639
+              }
+            },
+            "fileName": "boardroom_power",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "id": "6nf3rNaaVaUqYcoAcciSeC",
+        "type": "Asset",
+        "createdAt": "2020-05-10T20:31:45.497Z",
+        "updatedAt": "2020-06-13T04:22:38.188Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 107,
+        "publishedAt": "2020-06-13T04:22:38.188Z",
+        "firstPublishedAt": "2020-05-10T20:31:51.347Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "publishedCounter": 22,
+        "version": 108,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Profile Picture"
+        },
+        "description": {
+          "en-US": "Mate Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/723uytqlo16i/6nf3rNaaVaUqYcoAcciSeC/6570db56b6e33ee400ba01cc3eb56b59/profilepicture-removebg-preview.png",
+            "details": {
+              "size": 43041,
+              "image": {
+                "width": 200,
+                "height": 200
+              }
+            },
+            "fileName": "profilepicture-removebg-preview.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "id": "3AorRmtWOsGQ4o8gK0YWKG",
+        "type": "Asset",
+        "createdAt": "2020-06-13T03:55:58.736Z",
+        "updatedAt": "2020-06-13T04:30:48.624Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 19,
+        "publishedAt": "2020-06-13T04:30:48.624Z",
+        "firstPublishedAt": "2020-06-13T03:56:22.480Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 20,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "CSF-Simon-Says Logo"
+        },
+        "description": {
+          "en-US": "CSF-Simon-Says Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/723uytqlo16i/3AorRmtWOsGQ4o8gK0YWKG/2e71dc88b71ca7048190da5e6f00668e/framework-01.png",
+            "details": {
+              "size": 257126,
+              "image": {
+                "width": 2216,
+                "height": 2075
+              }
+            },
+            "fileName": "framework-01.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "0qAkiYGjhhZQEUnUzoAeql",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "createdAt": "2020-05-10T20:23:38Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedAt": "2020-05-10T20:23:38Z"
+      }
+    }
+  ],
+  "webhooks": [
+    {
+      "name": "Gatsby Builds",
+      "url": "https://webhook.gatsbyjs.com/hooks/data_source/publish/008f12de-82ee-48d1-8435-cae860230b06",
+      "httpBasicUsername": null,
+      "topics": [
+        "ContentType.publish",
+        "Entry.publish",
+        "Asset.publish",
+        "ContentType.unpublish",
+        "Entry.unpublish",
+        "Asset.unpublish"
+      ],
+      "filters": null,
+      "transformation": null,
+      "sys": {
+        "type": "WebhookDefinition",
+        "id": "gatsby-builds",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "createdAt": "2020-05-10T21:52:22Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedAt": "2020-06-12T17:24:31Z"
+      },
+      "headers": [
+      ]
+    },
+    {
+      "name": "Netlify - Deploy a site",
+      "url": "https://seventeensierra.netlify.app",
+      "httpBasicUsername": null,
+      "topics": [
+        "*.publish",
+        "*.unpublish"
+      ],
+      "filters": [
+        {
+          "equals": [
+            {
+              "doc": "sys.environment.sys.id"
+            },
+            "master"
+          ]
+        }
+      ],
+      "transformation": {
+        "contentType": "application/json"
+      },
+      "sys": {
+        "type": "WebhookDefinition",
+        "id": "3qwSyWBeywKQ9dSU7YYgMI",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "723uytqlo16i"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "createdAt": "2020-06-12T21:05:59Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7rR7biVEvT1Gm6s9ftdL88"
+          }
+        },
+        "updatedAt": "2020-06-12T21:06:15Z"
+      },
+      "headers": [
+      ]
+    }
+  ],
+  "roles": [
+  ]
+}

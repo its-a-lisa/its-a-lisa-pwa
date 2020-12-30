@@ -1,0 +1,355 @@
+{
+  "name": "Alyssa",
+  "description": "My top notch portfolio!",
+  "roles": [
+    "Civil Servant ⚖️",
+    "Wannabe Hacker ⚡",
+    "Technologist 💻",
+    "Boston(ish) bred 🏆"
+  ],
+  "socialLinks": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "pzngncq9drnk"
+          }
+        },
+        "id": "4SrlLN9bt6Yew2UyGgM06a",
+        "type": "Entry",
+        "createdAt": "2020-12-30T02:52:57.670Z",
+        "updatedAt": "2020-12-30T03:35:02.676Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Github",
+        "url": "https://github.com/its-a-lisa/",
+        "fontAwesomeIcon": "github"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "pzngncq9drnk"
+          }
+        },
+        "id": "3DpgtG8qI8QCWyEAuME4Ku",
+        "type": "Entry",
+        "createdAt": "2020-12-30T02:52:58.279Z",
+        "updatedAt": "2020-12-30T03:51:20.934Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Medium",
+        "url": "https://medium.com/@its_a_lisa",
+        "fontAwesomeIcon": "medium"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "pzngncq9drnk"
+          }
+        },
+        "id": "114ApRkJZq640w8G2GwM8w",
+        "type": "Entry",
+        "createdAt": "2020-12-30T02:52:56.340Z",
+        "updatedAt": "2020-12-30T03:51:04.929Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Contact me",
+        "url": "https://about.me/alyssafeola",
+        "fontAwesomeIcon": "envelope"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "pzngncq9drnk"
+          }
+        },
+        "id": "4J6WFTjoMUCmQKuKAaOsqE",
+        "type": "Entry",
+        "createdAt": "2020-12-30T02:52:57.330Z",
+        "updatedAt": "2020-12-30T03:35:02.346Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Twitter",
+        "url": "https://twitter.com/its_a_lisa",
+        "fontAwesomeIcon": "twitter"
+      }
+    }
+  ],
+  "profile": {
+    "sys": {
+      "space": {
+        "sys": {
+          "type": "Link",
+          "linkType": "Space",
+          "id": "pzngncq9drnk"
+        }
+      },
+      "id": "3566gluVHfHSDrBVEQaneo",
+      "type": "Asset",
+      "createdAt": "2020-12-30T03:05:22.164Z",
+      "updatedAt": "2020-12-30T03:05:22.164Z",
+      "environment": {
+        "sys": {
+          "id": "master",
+          "type": "Link",
+          "linkType": "Environment"
+        }
+      },
+      "revision": 1,
+      "locale": "en-US"
+    },
+    "fields": {
+      "title": "17S SM-Abstract",
+      "file": {
+        "url": "//images.ctfassets.net/pzngncq9drnk/3566gluVHfHSDrBVEQaneo/d643ae660d3aa611bd6a5610d0783071/17S_SM-Abstract.png",
+        "details": {
+          "size": 65225,
+          "image": {
+            "width": 1472,
+            "height": 1472
+          }
+        },
+        "fileName": "17S_SM-Abstract.png",
+        "contentType": "image/png"
+      }
+    }
+  },
+  "aboutMe": "Hello 👋 I'm Alyssa and I'm a Cybersecurity Advisor.\n\nSome basics about me 😃:\n* [Landing:](#home) It Me!\n* [About:](#about) Section about who I am, what I like to do and other good stuff!\n* [Project:](#projects) Various projects that I'm working on; would love any feedback.\n* [Writing:](#writing) My writings on medium.",
+  "mediumUser": "@its_a_lisa",
+  "projects": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "pzngncq9drnk"
+          }
+        },
+        "id": "6Y7EIx73nUCWuoIWcsuM00",
+        "type": "Entry",
+        "createdAt": "2020-12-30T02:52:57.987Z",
+        "updatedAt": "2020-12-30T03:53:37.261Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 4,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "project"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "XXonBoard",
+        "publishedDate": "2020-06-05T05:23-05:00",
+        "logo": {
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "pzngncq9drnk"
+              }
+            },
+            "id": "1chrrok3MTCNz1FQhN98YV",
+            "type": "Asset",
+            "createdAt": "2020-12-30T03:03:46.875Z",
+            "updatedAt": "2020-12-30T03:03:46.875Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "boardroom power",
+            "file": {
+              "url": "//images.ctfassets.net/pzngncq9drnk/1chrrok3MTCNz1FQhN98YV/898d45d288f7c6d2a22841e0dfb2f624/boardroom.jpg",
+              "details": {
+                "size": 101389,
+                "image": {
+                  "width": 444,
+                  "height": 639
+                }
+              },
+              "fileName": "boardroom_power",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        "repositoryUrl": "https://github.com/its-a-lisa/xxonboard",
+        "description": "It is well known that women are not well represented on executive boards. This project is a way to use coding practices (web scraping, python, natural language processing) to have a visually pleasing representation of the gender disparity. ",
+        "projectUrl": "http://xxonboard.seventeensierra.com/",
+        "type": "Web"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "pzngncq9drnk"
+          }
+        },
+        "id": "5paxSRHbAkmgMc4WSW8S66",
+        "type": "Entry",
+        "createdAt": "2020-12-30T02:52:56.902Z",
+        "updatedAt": "2020-12-30T03:53:54.014Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 4,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "project"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "CSF Simon Says",
+        "publishedDate": "2020-06-13T12:12-05:00",
+        "logo": {
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "pzngncq9drnk"
+              }
+            },
+            "id": "4arUBnglTjgYJfCmuWihUh",
+            "type": "Asset",
+            "createdAt": "2020-12-30T03:05:11.796Z",
+            "updatedAt": "2020-12-30T03:05:11.796Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "framework-01",
+            "file": {
+              "url": "//images.ctfassets.net/pzngncq9drnk/4arUBnglTjgYJfCmuWihUh/3346e8ee46f98fc30de61c15a5896f4a/framework-01.png",
+              "details": {
+                "size": 257126,
+                "image": {
+                  "width": 2216,
+                  "height": 2075
+                }
+              },
+              "fileName": "framework-01.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "repositoryUrl": "https://github.com/its-a-lisa",
+        "description": "The Cybersecurity Framework logo already looks like the game 'Simon' so why not make it so & teach folks about the CSF while we're at it!",
+        "projectUrl": "https://www.csfsimonsays.seventeensierra.com/",
+        "type": "Web"
+      }
+    }
+  ]
+}
